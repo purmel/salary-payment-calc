@@ -14,5 +14,7 @@
             "email": "daria_puscas@yahoo.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^13.4"
+    }
 }
