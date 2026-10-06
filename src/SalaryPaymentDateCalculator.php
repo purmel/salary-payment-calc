@@ -17,11 +17,11 @@
 
             $dayOfWeek = (int) $lastDayOfMonth->format('N');
 
-            if($dayOfWeek == 6){
+            if($dayOfWeek === 6){
                 return $lastDayOfMonth->modify('-1 day');
             }
 
-            if($dayOfWeek == 7){
+            if($dayOfWeek === 7){
                 return $lastDayOfMonth->modify('-2 days');
             }
                 
